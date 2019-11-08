@@ -1,0 +1,10 @@
+cxx.std=experimental
+cxx.features.symexport = true # Helfpful to automatically handles symbol export/import without having macros
+
+using cxx
+
+# Target for the library (dynamic or static, whatever)
+lib{helloworld} : {cxx mxx}{helloworld}
+
+# Target of the executable
+exe{hello} : cxx{main}

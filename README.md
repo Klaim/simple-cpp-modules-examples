@@ -24,5 +24,6 @@ With Libraries
 
 A slightly more complex example is in the `with_libs` directory, where we have a module which is in a separate library from the executable.
 In this case, I use a feature provided by `build2`:  `__symexport` which automatically handles symbol import/export when building a dynamic library.
+I also modified the original example to have the implementation of the hello function in a separate file, while still being part of the module `helloworld`.
 
 

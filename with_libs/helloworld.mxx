@@ -1,0 +1,6 @@
+export module helloworld;
+
+export __symexport
+void hello();
+
+
