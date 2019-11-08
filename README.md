@@ -5,7 +5,8 @@ but using build2 to handled the compilation steps.
 How To Build
 ------------
 
-0. Install `build2` (you might need the stage version, depends on what you want to do)
+0. Install `build2` https://build2.org/
+ (you might need the stage version, depends on what you want to do and if it's released yet or not)
 1. Make sure you have installed at least one compiler which supports modules.
 2. In this directory: `b` builds with the same compiler you used to install `build2`
  - With clang: `b config.cxx=clang++`
